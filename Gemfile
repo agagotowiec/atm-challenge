@@ -5,3 +5,7 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "rspec", "~> 3.11"
+
+group :development, :test do
+  gem "rubocop", "1.20"
+end
